@@ -1,0 +1,22 @@
+[
+  {
+    "type": "vegetable",
+    "name": "carrot",
+    "quantity": 1
+  },
+  {
+    "type": "dairy",
+    "name": "milk",
+    "quantity": 1
+  },
+  {
+    "type": "beans",
+    "name": "soy",
+    "quantity": 1
+  },
+  {
+    "type": "choko",
+    "name": "freia",
+    "quantity": 1
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "eu-west-1",
+      "eventTime": "2023-05-11T14:07:46.562Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": { "principalId": "AWS:AIDAVOL74Z6DBNGG5E3E5" },
+      "requestParameters": { "sourceIPAddress": "77.40.174.194" },
+      "responseElements": {
+        "x-amz-request-id": "R759WVMYM0XBWMGX",
+        "x-amz-id-2": "F0j5EhWepkbBq3X4zJOO9yniXT0+IJL2iUN+A9Tco0zsXW5AMAfihRMnp1rTiM8/rY41cUltX1nJRLq8px8DPak5kLjuykDX"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "kulegruppa-dev-hello-68a737133cefb25bff959852b8f04754",
+        "bucket": {
+          "name": "kulegruppas-bucket",
+          "ownerIdentity": { "principalId": "A1P37TO3YMVJSV" },
+          "arn": "arn:aws:s3:::kulegruppas-bucket"
+        },
+        "object": {
+          "key": "inventory.json",
+          "size": 0,
+          "eTag": "d41d8cd98f00b204e9800998ecf8427e",
+          "sequencer": "00645CF6B288BE8815"
+        }
+      }
+    }
+  ]
+}
